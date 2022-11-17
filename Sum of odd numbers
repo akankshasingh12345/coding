@@ -1,0 +1,26 @@
+package simpleJavaCode;
+
+import java.util.Scanner;
+public class Sum of odd numbers{
+	public static void main(String args[]) {
+		int sum=0;
+		int n=0;
+		
+		Scanner sc=new Scanner(System.in) ;
+		  System.out.println("Enter a number");
+		   n =sc.nextInt();
+		  
+		for(int i=0; i<=n; i++) {
+			if(i%2==1) {
+				sum +=i;
+			
+			}
+			
+		}
+		System.out.print("sum of all odd number between 0 to" + n + "=" + sum);   
+	}
+	
+	
+}
+
+
